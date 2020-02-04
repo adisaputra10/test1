@@ -1,5 +1,5 @@
 env.jenkins="jenkins"
-API_BASE_URL="https://api-dev.telkomdig"
+API_BASE_URL="https://api-dev.telkomdigitalsolution.co"
 API_CATALOG_BASE_URL="https://catalog-api-dev.telkomdigitalsolution.co"
 Authorization="Basic dGVsa29tZGlnaXRhbHNvbHV0aW9uZDN2OjY5NTg0OWRlLTlmYWEtNGJjMy05ZmIzLTA2NjAzNDQzNWM1OQ=="
 CIPHER_KEY="dGVsa29tdGRzY3VzdG9tZXI6Z"
