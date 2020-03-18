@@ -6,6 +6,8 @@ node('master') {
     }
       stage('Build Docker Image') {
         sh "docker build -t $DOCKER_REGISTRY/$DOCKER_IMAGE_NAME:${BUILD_NUMBER} ."   
+        //echo env.BRANCH_NAME
+        if( env.BRANCH_NAME == "development"){ echo "perintah ke server dev" }else{ echo "perintah ke server prod"}
     }
       stage('Push Docker Image to Dockerhub') {
           sh "docker push $DOCKER_REGISTRY/$DOCKER_IMAGE_NAME:${BUILD_NUMBER}"
